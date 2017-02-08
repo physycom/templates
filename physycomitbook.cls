@@ -17,9 +17,9 @@
    \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
    \includegraphics[width=0.35\textwidth]{logo_unibo.png}\\
    \vspace{0.5cm}
-   {\huge University of Bologna\\Alma Mater Studiorum}\\[1.5cm]
-   {\LARGE Physics and Astronomy Department}\\[1.5cm]
-   {\large Physics of the City Laboratory}\\[1.5cm]
+   {\huge Universit\`a degli Studi di Bologna\\Alma Mater Studiorum}\\[1.5cm]
+   {\LARGE Dipartimento di Fisica e Astronomia}\\[1.5cm]
+   {\large Laboratorio di Fisica della Citt\`a}\\[1.5cm]
    \vspace*{1cm}
    \HRule \\[0.4cm]
    { \huge \bfseries \@title}\\[0.4cm]
