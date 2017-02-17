@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{physycomen}[2017/02/06 UniBO DiFA PhySyComLAB book template]
+\ProvidesClass{physycomitbook}[2017/02/06 UniBO DiFA PhySyComLAB book template]
 
 \LoadClass{book}  
 
