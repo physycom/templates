@@ -11,16 +11,6 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
 
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[L]{\footnotesize UniBO-DiFA}
-%\fancyhead[C]{}
-\fancyhead[R]{\footnotesize PhySyCom LAB}
-\fancyfoot[R]{\footnotesize \@title}
-\fancyfoot[C]{\thepage}
-%\fancyfoot[L]{\footnotesize \thepage}
-\renewcommand{\footrulewidth}{0.4pt}
-
 
 \renewcommand{\maketitle}{
    \thispagestyle{empty}
@@ -39,4 +29,27 @@
    \end{center}
    \newpage
 }
+
+% Page & text layout
+\usepackage{geometry}
+\geometry{%
+  a4paper,%
+  top=2.0cm,%
+  bottom=2.0cm,%
+  left=1.5cm,%
+  right=1.5cm%
+}
+\tolerance=750
+\hfuzz=15pt
+\hbadness=750
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize UniBO-DiFA}
+%\fancyhead[C]{}
+\fancyhead[R]{\footnotesize PhySyCom LAB}
+\fancyfoot[R]{\footnotesize \@title}
+\fancyfoot[C]{\thepage}
+%\fancyfoot[L]{\footnotesize \thepage}
+\renewcommand{\footrulewidth}{0.4pt}
 
