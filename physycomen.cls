@@ -7,6 +7,10 @@
 \RequirePackage{fancyhdr} 
 \RequirePackage{appendix}
 
+\RequirePackage{booktabs}
+\RequirePackage{colortbl}
+\RequirePackage[table]{xcolor}
+\rowcolors{2}{}{gray!20}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
